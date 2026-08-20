@@ -40,6 +40,16 @@ MRI Volume -> Preprocessing -> 3D Segmentation Model -> Tumor Mask -> Metrics + 
 2. Phase 2: 3D segmentation model training
 3. Phase 3: Evaluation and visualization of tumor masks
 
+## Task Tracking
+
+Work is broken into phase-tagged user stories tracked as GitHub Issues, not in this file. To see what's open:
+
+```bash
+gh issue list --repo faheemkhaskheli9/3d-breast-tumor-segmentation --state open --label type:user-story
+```
+
+Implement Phase 1 issues first (later phases depend on it). When you start one, add label `status:in-progress`. When you finish, close it referencing the commit (e.g. `git commit -m "... Closes #4"`) and push.
+
 ## 6. Repository Structure
 
 ```text
